@@ -1,0 +1,2 @@
+
+jQuery(document).ready((function (a) { var b = a(".faq-ans").hide(); b.first().show(), a(".faq-que").click((function () { var c = a(this); b.slideUp(), c.next().slideDown() })) })), jQuery(document).ready((function (a) { var b = a(".orderlist-body").hide(); b.first().show(), a(".orderlist-head").click((function () { var c = a(this); b.slideUp(), c.next().slideDown() })) }));

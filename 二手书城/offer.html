@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Offer</title>
+<link rel="icon" href="images/favicon.png">
+<link rel="stylesheet" href="fonts/flaticon/flaticon.css">
+<link rel="stylesheet" href="fonts/icofont/icofont.min.css">
+
+<link rel="stylesheet" href="https://www.jq22.com/jquery/jquery-ui-1.11.0.css">
+
+
+<link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-5.0.0.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <!--头部-->
+   <section class="header-top">
+    <div class="container"><!-- container是bootstrap预定义样式 -->
+        <div class="row">
+          <div class="col-md-12 col-lg-5">
+          <div class="header-top-welcome">
+            <p>欢迎来到书城!</p>
+          </div>
+        </div>
+  <!---下拉框-->
+        <div class="col-md-6 col-lg-3">
+          <ul class="navbar-list">
+            <li class="navbar-item dropdown"><a class="navbar-link dropdown-arrow" href="#">首页</a>
+              <ul class="dropdown-position-list">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">折扣优惠</a></li>
+                <li><a href="#">心愿单</a></li>
+      
+              </ul>
+            </li>
+           
+       
+            <li class="navbar-item dropdown-megamenu"><a class="navbar-link dropdown-arrow" href="#">分类</a>
+              <div class="megamenu">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="megamenu-wrap">
+                        <h5 class="megamenu-title">童书</h5>
+                        <ul class="megamenu-list">
+                          <li><a href="#">让小学生爱上阅读</a></li>
+                          <li><a href="#">揭开中国航天秘密</a></li>
+                          <li><a href="#">好绘本抢鲜读</a></li>
+                          <li><a href="#">漫游儿童文学</a></li>
+                          <li><a href="#">纽伯瑞奖获奖作品</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="megamenu-wrap">
+                        <h5 class="megamenu-title">社科</h5>
+                        <ul class="megamenu-list">
+                            <li><a href="#">社科历史类人气品牌</a></li>
+                            <li><a href="#">“甲骨文丛书”书单</a></li>
+                            <li><a href="#">历史类精品“汗青堂丛书”书单</a></li>
+                            <li><a href="#">译文纪实系列书单</a></li>
+  
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="megamenu-wrap">
+                        <h5 class="megamenu-title">文艺</h5>
+                        <ul class="megamenu-list">
+                          <li><a href="wishlist.html">传记</a></li>
+                          <li><a href="#">随笔文学</a></li>
+                          <li><a href="#">作品集</a></li>
+                          <li><a href="#">纪实文学</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="megamenu-wrap">
+                        <h5 class="megamenu-title">教育</h5>
+                        <ul class="megamenu-list">
+                          <li><a href="wishlist.html">科普读物</a></li>
+                          <li><a href="#">考试</a></li>
+                          <li><a href="#">外语</a></li>
+                          <li><a href="#">教辅工具书</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="navbar-item dropdown"><a class="navbar-link dropdown-arrow" href="#">账号</a>
+              <ul class="dropdown-position-list">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">修改密码</a></li>
+                <li><a href="#">重置密码</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+  
+  
+        
+        <div class="col-md-7 col-lg-4">
+          <ul class="header-top-list">
+            <li><a href="offer.html">折扣</a></li>
+            <li><a href="wishlist.html">心愿单</a></li>
+            <li><a href="#">联系我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+
+<!---分类栏搜索框-->
+<section class="header-part">
+  <div class="container-fluid">
+    <div class="header-content-group">
+      <div class="header-widget-group left">
+        <button class="header-widget header-user" href="#" title="我的账户"><img src="images/user1.jpg" alt="user"></button>
+        
+        <button class="header-widget header-src" title="搜索栏"><i class="icofont-ui-search"></i></button>
+        <button class="header-widget header-cate" title="分类栏"><i class="icofont-align-left"></i><span>分类栏</span></button>
+      </div>
+      <form class="header-form">
+        <input type="text" placeholder="书名作者版本或ISBN">
+        <button><i class="icofont-ui-search"></i></button>
+      </form>
+      <div class="header-widget-group right">
+        <a class="header-widget" href="#" title="我的账户"><img src="images/user1.jpg" alt="user">
+          <span>点击登录</span></a>
+         
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--移动端分类-->
+<aside class="category-part">
+  <div class="category-container">
+    <div class="category-header">
+      <button class="category-close"><i class="icofont-close"></i></button>
+    </div>
+    <ul class="category-list">
+      <li><a class="cate-link dropdown-link" href="#">童书</a>
+        <ul class="dropdown-list">
+          <li><a href="#">
+            让小学生爱上阅读
+          </a></li>
+          <li><a href="#"> 揭开中国航天秘密
+           </a></li>
+          <li><a href="#"> 
+            好绘本抢鲜读
+            </a></li>
+          <li><a href="#">漫游儿童文学
+           </a></li>
+           <li><a href="#">纽伯瑞奖获奖作品 </a></li>
+        </ul>
+      </li>
+      <li><a class="cate-link dropdown-link" href="#">社科</a>
+        <ul class="dropdown-list">
+          <li><a href="#">
+            社科历史类人气品牌
+            </a></li>
+          <li><a href="#">“甲骨文丛书”书单
+            </a></li>
+          <li><a href="#">历史类精品“汗青堂丛书”书单
+           </a></li>
+           <li><a href="#"> 译文纪实系列书单</a></li>
+        </ul>
+      </li>
+      <li><a class="cate-link dropdown-link" href="#">文艺</a>
+        <ul class="dropdown-list">
+          <li><a href="#">
+            传记
+           </a></li>
+          <li><a href="#"> 随笔文学
+           </a></li>
+          <li><a href="#"> 作品集
+            </a></li>
+            <li><a href="#">纪实文学</a></li> 
+        </ul>
+      </li>
+      <li><a class="cate-link dropdown-link" href="#">教育 </a>
+        <ul class="dropdown-list">
+          <li><a href="#">
+            科普读物
+          </a></li>
+          <li><a href="#">
+           考试
+          </a></li>
+          <li><a href="#">  
+            外语
+           </a></li>
+          <li><a href="#"> 教辅工具书</a></li>
+        </ul>
+      </li>
+      
+    </ul>
+   
+  </div>
+</aside>
+
+
+
+
+
+<!---移动端底部导航-->
+<menu class="mobile-menu"><a href="index.html" title="首页"><i class="icofont-ui-home"></i><span>首页</span></a>
+  <button class="cate-btn" title="Category List"><i class="icofont-listine-dots"></i><span>分类</span></button>
+  <button class="cart-btn" title="Cartlist"><i class="icofont-shopping-cart"></i><span>购物车</span></button>
+  <a href="wishlist.html" title="Wishlist"><i class="icofont-ui-love"></i><span>心愿单</span></a>
+  </menu>
+
+
+<section class="inner-section single-banner">
+  <div class="container">
+    <h2>折扣优惠</h2>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">首页</a></li>
+      <li class="breadcrumb-item active" aria-current="page">折扣</li>
+    </ol>
+  </div>
+</section>
+<section class="inner-section offer-part">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="offer-card"><a href="#"><img src="images/offer/test1/01.JPG" alt="offer"></a>
+          <div class="offer-div">
+            <h5 class="offer-code">限时免费</h5>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="offer-card"><a href="#"><img src="images/offer/test1/02.JPG" alt="offer"></a>
+          <div class="offer-div">
+            <h5 class="offer-code">限时免费</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="offer-card"><a href="#"><img src="images/offer/test1/03.JPG" alt="offer"></a>
+          <div class="offer-div">
+            <h5 class="offer-code">限时免费</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="offer-card"><a href="#"><img src="images/offer/test1/04.JPG" alt="offer"></a>
+          <div class="offer-div">
+            <h5 class="offer-code">限时免费</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="offer-card"><a href="#"><img src="images/offer/test1/05.JPG" alt="offer"></a>
+          <div class="offer-div">
+            <h5 class="offer-code">限时免费</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="offer-card"><a href="#"><img src="images/offer/test1/06.JPG" alt="offer"></a>
+          <div class="offer-div">
+            <h5 class="offer-code">限时免费</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="offer-card"><a href="#"><img src="images/offer/test1/07.JPG" alt="offer"></a>
+          <div class="offer-div">
+            <h5 class="offer-code">限时免费</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="offer-card"><a href="#"><img src="images/offer/test1/08.JPG" alt="offer"></a>
+          <div class="offer-div">
+            <h5 class="offer-code">限时免费</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!---提示布局-->
+<section class="visual-part">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-lg-3">
+        <div class="visual-wrap">
+          <div class="visual-icon"><i class="icofont-vehicle-delivery-van"></i></div>
+          <div class="visual-content">
+            <h5>免费配送</h5>
+            <p>免费配送，一键直达</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="visual-wrap">
+          <div class="visual-icon"><i class="icofont-retweet"></i></div>
+          <div class="visual-content">
+            <h5>7天无理由退换</h5>
+            <p>注重客户体验</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="visual-wrap">
+          <div class="visual-icon"><i class="icofont-support"></i></div>
+          <div class="visual-content">
+            <h5>人工客服</h5>
+            <p>人工客服24h在线</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="visual-wrap">
+          <div class="visual-icon"><i class="icofont-ssl-security"></i></div>
+          <div class="visual-content">
+            <h5>安全支付</h5>
+            <p>安全支付，放心买</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!---底部布局-->
+<footer class="footer-part">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-xl-3">
+        
+      </div>
+      <div class="col-sm-6 col-xl-3">
+        <div class="footer-widget">
+          <h3 class="footer-title">联系我们</h3>
+          <ul class="footer-contact">
+            <li><i class="icofont-ui-email"></i>
+              <p><span>123456789@qq.com</span></p>
+            </li>
+            <li><i class="icofont-ui-touch-phone"></i>
+              <p><span>(+86) 123 456 789</span></p>
+            </li>
+            <li><i class="icofont-location-pin" id="flip"></i>
+              <p>广州南方学院</p>
+              
+            </li>
+            
+
+          </ul>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  <div id="panel">
+    <div id="container" style="width: 100%; height:100%"></div>
+    
+</div>
+</footer>
+<script src="http://api.map.baidu.com/api?v=
+    2.0&ak=0A5bc3c4fb543c8f9bc54b77bc155724"></script>
+    <script>
+      var map=new BMap.Map("container");
+      var point=new BMap.Point(113.685752,23.638368);
+      map.centerAndZoom(point,15);
+      var marker=new BMap.Marker(point);
+      map.addOverlay(marker);
+      marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+    </script>
+
+<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="https://www.jq22.com/jquery/bootstrap-5.0.0.js"></script>
+
+<script src="js/vendor/venobox.min.js"></script>
+<script src="https://www.jq22.com/jquery/jquery-ui-1.11.0.js"></script>
+<script src="js/vendor/slick.min.js"></script>
+<script src="js/custom/price-range.js"></script>
+<script src="js/custom/accordion.js"></script>
+<script src="js/custom/venobox.js"></script>
+<script src="js/custom/slick.js"></script>
+<script src="js/custom/main.js"></script>
+</body>
+</html>
